@@ -1,0 +1,35 @@
+Dizi: [22,27,16,2,18,6] --> Insertion Sort
+
+1)
+
+1- ilk elemandan küçük eleman var mı bakıyoruz (2) ve yerlerini değiştiriyoruz:
+[2,27,16,22,18,6]
+
+2-Aynı şekilde devam edilecek olursa:
+[2,6,16,22,18,27]
+
+3- [2,6,16,22,18,27]
+
+4- [2,6,16,18,22,27]
+
+5- [2,6,16,18,22,27]
+
+2)
+n adet sayı olduğunu düşünelim her bir adımda bir sayı daha az işlem yapıyoruz dolayısıyla yapıtğımız işlemler;
+[n+(n-1)+(n-2)+...+1] = n.(n+1)/2 = (n^2+n)/2 Dominant big-O= O(n^2)
+
+3)
+Best case: O(n)
+Average case: O(n^2)
+Worst case: O(n^2)
+
+4)
+Average case
+
+Ek: [7,3,5,8,2,9,4,15,6] dizisinin Insertion Sort'a göre ilk 4 adımını yazınız.
+
+Adım 1: [2,3,5,8,7,9,4,15,6]
+Adım 2: [2,3,5,8,7,9,4,15,6]
+Adım 3: [2,3,4,8,7,9,5,15,6]
+Adım 4: [2,3,4,5,7,9,8,15,6]
+
